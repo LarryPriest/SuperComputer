@@ -21,7 +21,7 @@ Used for the memory view portal.
 
 The main focus is on the Raspberry PI pico module
 
-Coding is done with CircuitPython. inspirational thanks to Adafruit(esp. DanH for the Asyncio)
+Coding is done with CircuitPython. inspirational thanks to Adafruit(esp. DanH et al. for the Asyncio)
 
 to be added the schematics and photos.
 
