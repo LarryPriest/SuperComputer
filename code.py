@@ -15,11 +15,10 @@ if __name__ == '__main__':
     RandomLed()
     PlaySound(4)
     PlaySound(2)
-    
+
     ButtonSelect()
     while True:
         ButtonSelect.SelectButton()
 
     RandomLed.RandomLedClose()
     sys.exit()
- 

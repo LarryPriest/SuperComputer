@@ -2,7 +2,6 @@
 '''
 2021.21.35 Larry T. Priest  priestlt@protonmail.com
 random LED display a st of binary numbers
-Written by Larry T, Priest (priestlt@protonmail.com)
 august 28, 2021
 16 LED's on pins GPIO0 - GPIO15
 '''
@@ -14,7 +13,7 @@ import random
 
 class RandomLed():
     '''Random LED generator'''
-    delay = 0.15  # seconds
+    # delay = 0.15  # seconds
     count = 0xffff  # any interger (hex 'cause it makes sense)
     LEDbits = []
     TOTALBITS = 16
@@ -30,7 +29,7 @@ class RandomLed():
             RandomLed.LEDbits[i].direction = digitalio.Direction.OUTPUT
 
     def ByteList(count):
-        '''Takes an integer and creates a list of 'bits' representing LEDs'''
+        # Takes an integer and creates a list of 'bits' representing LEDs
         counterBits = bin(count)[2:]  # leading zero + b chopped
         while len(counterBits) < 16:
             counterBits = '0' + counterBits
